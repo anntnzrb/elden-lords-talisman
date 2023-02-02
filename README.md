@@ -28,7 +28,7 @@ which overloads **3** features into a single bind (Sprint, Roll, Backstep). Ther
 |------------------|-----------------------------------------------------------------------------------|---------------|
 | **Sprinting**    | Unmodified behavior. Hold the key to sprint.                                      | `LAlt` (hold) |
 | **Rolling**      | Instantly roll. Rolling is done as soon the button is pressed, not when released. | `Spacebar`    |
-| **Backstepping** | Perform a backstep regardless of player movement.                                 | `z`           |
+| **Backstepping** | Perform a backstep regardless of player movement.                                 | `Ctrl`        |
 | **Show Status**  | Show the "Status" screen with a single button press.                              | `u`           |
 
 ### Quick Features

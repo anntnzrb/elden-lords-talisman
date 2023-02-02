@@ -18,3 +18,11 @@ global ER_KEY_QK_MAINMENU    := IniRead(configFile, "Keys", "ER_KEY_QK_MAINMENU"
 global ER_KEY_QK_STATUS      := IniRead(configFile, "Keys", "ER_KEY_QK_STATUS")
 global ER_KEY_PAUSEGAME      := IniRead(configFile, "Keys", "ER_KEY_PAUSEGAME")
 global ER_KEY_SPINNER        := IniRead(configFile, "Keys", "ER_KEY_SPINNER")
+
+; Gestures
+global ER_KEY_QK_GESTURE1  := IniRead(configFile, "Keys", "ER_KEY_QK_GESTURE1")
+global ER_KEY_QK_GESTURE2  := IniRead(configFile, "Keys", "ER_KEY_QK_GESTURE2")
+global ER_KEY_QK_GESTURE3  := IniRead(configFile, "Keys", "ER_KEY_QK_GESTURE3")
+global ER_KEY_QK_GESTURE4  := IniRead(configFile, "Keys", "ER_KEY_QK_GESTURE4")
+global ER_KEY_QK_GESTURE5  := IniRead(configFile, "Keys", "ER_KEY_QK_GESTURE5")
+global ER_KEY_QK_GESTURE6  := IniRead(configFile, "Keys", "ER_KEY_QK_GESTURE6")

@@ -37,12 +37,21 @@ which overloads **3** features into a single bind (Sprint, Roll, Backstep). Ther
 Quick features refer to a set of quality of life improvements designed for fast
 and convenient access.
 
-| **Feature**          | **Description**                                         | **Use Cases**                        | **Key**        |
+| **Feature**          | **Description**                                         | **Use Case**                         | **Key**        |
 |----------------------|---------------------------------------------------------|--------------------------------------|----------------|
 | **Quick MainMenu**   | Instantly go to the game's main menu.                   | - Aggro removing<br>- Area reloading | `LShift + ESC` |
 | **Quick RoundTable** | Instantly go the Round Table Hold.                      |                                      | `LShift + g`   |
 | **Pause**            | Pauses the game. Accomplished by entering some sub-menu | - Pause the game enirely.            | `Ctrl + ESC`   |
 | **Spinner**          | Spins the player clock-wise                             |                                      | `v`            |
+
+| **Gesture**           | **Key** |
+|-----------------------|---------|
+| **#1 (Top Left)**     | `i`     |
+| **#2 (Top Right)**    | `o`     |
+| **#3 (Middle Left)**  | `p`     |
+| **#4 (Middle Right)** | `j`     |
+| **#5 (Bottom Left)**  | `k`     |
+| **#6 (Bottom Right)** | `l`     |
 
 ## Installation
 

@@ -31,6 +31,7 @@ SendMode("Input")
 #Include "%A_ScriptDir%/src/features/Roll.ahk"
 #Include "%A_ScriptDir%/src/features/Backstep.ahk"
 #Include "%A_ScriptDir%/src/features/PauseGame.ahk"
+#Include "%A_ScriptDir%/src/features/Spinner.ahk"
 
 ; =============================================================================
 ; Window Detection
@@ -47,3 +48,4 @@ Hotkey ER_KEY_QK_ROUNDTABLE, qkRoundTable
 Hotkey ER_KEY_QK_MAINMENU, qkMainMenu
 Hotkey ER_KEY_QK_STATUS, qkStatus
 Hotkey ER_KEY_PAUSEGAME, pauseGame
+Hotkey ER_KEY_SPINNER, spin

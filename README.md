@@ -15,7 +15,8 @@ See [FAQ](#faq).
 **NOTE**:
 This application is currently in a beta state and its reliability may be subject
 to change as more people use it and provide feedback. If you encounter any
-issues or have any suggestions for improvement, please report them. Your feedback will help to make this application a better tool for players.
+issues or have any suggestions for improvement, please report them.
+Your feedback will help to make this application a better tool for players.
  
 ## Features
 
@@ -38,9 +39,10 @@ and convenient access.
 
 | **Feature**          | **Description**                                         | **Use Cases**                        | **Key**        |
 |----------------------|---------------------------------------------------------|--------------------------------------|----------------|
-| **Quick MainMenu**   |                   Instantly go to the game's main menu. | - Aggro removing<br>- Area reloading | `LShift + ESC` |
-| **Quick RoundTable** | Instantly go the Round Table Hold.                      | -                                    | `LShift + g`   |
+| **Quick MainMenu**   | Instantly go to the game's main menu.                   | - Aggro removing<br>- Area reloading | `LShift + ESC` |
+| **Quick RoundTable** | Instantly go the Round Table Hold.                      |                                      | `LShift + g`   |
 | **Pause**            | Pauses the game. Accomplished by entering some sub-menu | - Pause the game enirely.            | `Ctrl + ESC`   |
+| **Spinner**          | Spins the player clock-wise                             |                                      | `v`            |
 
 ## Installation
 

@@ -17,3 +17,4 @@ global ER_KEY_QK_ROUNDTABLE  := IniRead(configFile, "Keys", "ER_KEY_QK_ROUNDTABL
 global ER_KEY_QK_MAINMENU    := IniRead(configFile, "Keys", "ER_KEY_QK_MAINMENU")
 global ER_KEY_QK_STATUS      := IniRead(configFile, "Keys", "ER_KEY_QK_STATUS")
 global ER_KEY_PAUSEGAME      := IniRead(configFile, "Keys", "ER_KEY_PAUSEGAME")
+global ER_KEY_SPINNER        := IniRead(configFile, "Keys", "ER_KEY_SPINNER")

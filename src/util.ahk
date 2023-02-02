@@ -27,9 +27,9 @@ IsKeyHeld(key) {
  *
  * @param key The key to press
  */
-PressKey(key) {
+PressKey(key, duration := MIN_KEY_PRESS) {
     SendInput("{" key " down}")
-    Sleep(MIN_KEY_PRESS)
+    Sleep(duration)
     SendInput("{" key " up}")
 }
 

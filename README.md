@@ -23,7 +23,8 @@ Your feedback will help to make this application a better tool for players.
 ### Dedicated Keys
 
 By default, the game only offers an option called **Backstep, Dodge Roll, Dash**
-which overloads **3** features into a single bind (Sprint, Roll, Backstep). There are also other useful binds.
+which overloads **3** features into a single bind (Sprint, Roll, Backstep).
+There are also other useful binds.
 
 | **Feature**      | **Description**                                                                  | **Key**       |
 |------------------|----------------------------------------------------------------------------------|---------------|
@@ -63,8 +64,11 @@ and convenient access.
 
 1. Download and install [AutoHotkey v2](https://www.autohotkey.com/v2/) from the
 official website.
-2. Clone or download this repository and save the folder to your computer.
-3. Open the `config.ini` file and customize it to your preferences.
+2. Obtain this mod by any of the following **3 methods**:
+  1. Download the **latest release** on the corresponding **Releases** section.
+  2. Download this repository as `.zip` file.
+  3. Clone this repository.
+3. Open the `config.ini` file and customize it to your preferences (if desired).
 4. Double-click the `main.ahk` file to run the program. Alternatively, you can
 compile the .ahk file into an `.exe` file and run that instead.
 

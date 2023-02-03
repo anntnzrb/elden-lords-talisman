@@ -82,7 +82,7 @@ updated.
 **Q**: _How to modify the keys (bindings)?_
 
 **A**:
-> There's a `config.ini` file in the root of the program. In there you may
+> There is a `config.ini` file in the root of the program. In there you may
 change the bindings to your liking, read the top header comment for a link to
 [AHK's Key's List](https://www.autohotkey.com/docs/v2/KeyList.htm).
 

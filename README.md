@@ -25,12 +25,12 @@ Your feedback will help to make this application a better tool for players.
 By default, the game only offers an option called **Backstep, Dodge Roll, Dash**
 which overloads **3** features into a single bind (Sprint, Roll, Backstep). There are also other useful binds.
 
-| **Feature**      | **Description**                                                                   | **Key**       |
-|------------------|-----------------------------------------------------------------------------------|---------------|
-| **Sprinting**    | Unmodified behavior. Hold the key to sprint.                                      | `LAlt` (hold) |
-| **Rolling**      | Instantly roll. Rolling is done as soon the button is pressed, not when released. | `Spacebar`    |
-| **Backstepping** | Perform a backstep regardless of player movement.                                 | `Ctrl`        |
-| **Show Status**  | Show the "Status" screen with a single button press.                              | `u`           |
+| **Feature**      | **Description**                                                                  | **Key**       |
+|------------------|----------------------------------------------------------------------------------|---------------|
+| **Sprinting**    | Unmodified behavior. Hold the key to sprint                                      | `LAlt` (hold) |
+| **Rolling**      | Instantly roll. Rolling is done as soon the button is pressed, not when released | `Spacebar`    |
+| **Backstepping** | Perform a backstep regardless of player movement                                 | `Ctrl`        |
+| **Show Status**  | Show the "Status" screen with a single button press                              | `u`           |
 
 ### Quick Features
 
@@ -39,9 +39,9 @@ and convenient access.
 
 | **Feature**          | **Description**                                         | **Use Case**                         | **Key**        |
 |----------------------|---------------------------------------------------------|--------------------------------------|----------------|
-| **Quick MainMenu**   | Instantly go to the game's main menu.                   | - Aggro removing<br>- Area reloading | `LShift + ESC` |
-| **Quick RoundTable** | Instantly go the Round Table Hold.                      |                                      | `LShift + g`   |
-| **Pause**            | Pauses the game. Accomplished by entering some sub-menu | - Pause the game enirely.            | `Ctrl + ESC`   |
+| **Quick MainMenu**   | Instantly go to the game's main menu                    | - Aggro removing<br>- Area reloading | `LShift + ESC` |
+| **Quick RoundTable** | Instantly go the Round Table Hold                       |                                      | `LShift + g`   |
+| **Pause**            | Pauses the game. Accomplished by entering some sub-menu | - Pause the game enirely             | `Ctrl + ESC`   |
 | **Spinner**          | Spins the player clock-wise                             |                                      | `v`            |
 
 | **Gesture**           | **Key** |
@@ -52,6 +52,12 @@ and convenient access.
 | **#4 (Middle Right)** | `j`     |
 | **#5 (Bottom Left)**  | `k`     |
 | **#6 (Bottom Right)** | `l`     |
+
+### Miscellaneous
+
+| **Feature**       | **Description**                           | **Key**      | **Notes**                   |
+|-------------------|-------------------------------------------|--------------|-----------------------------|
+| **Toggle Script** | Toggles the whole script. Used for typing | `RCtrl + F9` | This bind cannot be changed |
 
 ## Installation
 
@@ -77,7 +83,7 @@ updated.
 
 **A**:
 > There's a `config.ini` file in the root of the program. In there you may
-change the binding to your liking, read the top header comment for link to
+change the bindings to your liking, read the top header comment for a link to
 [AHK's Key's List](https://www.autohotkey.com/docs/v2/KeyList.htm).
 
 ## Goals
@@ -98,9 +104,10 @@ may be subject to the terms and conditions set forth by the game's publisher.
 This project was created as a way for me to learn the AHK v2 language
 and experiment with its capabilities. The end goal is to provide a helpful and
 convenient tool for players, there may be areas for improvement. I am open to
-collaboration, submitting Pull Request & Issues is available.
+collaboration; submitting Pull Requests & Issues is available.
 
-This application is a third-party program and is in no way affiliated with Elden Ring, FromSoftware, or Bandai Namco.
+This application is a third-party program and is in no way affiliated with
+Elden Ring, FromSoftware, or Bandai Namco.
 
 ## Copying
 

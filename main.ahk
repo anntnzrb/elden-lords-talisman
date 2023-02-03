@@ -58,3 +58,8 @@ Hotkey ER_KEY_QK_GESTURE3, qkGesture3
 Hotkey ER_KEY_QK_GESTURE4, qkGesture4
 Hotkey ER_KEY_QK_GESTURE5, qkGesture5
 Hotkey ER_KEY_QK_GESTURE6, qkGesture6
+
+; System
+#SuspendExempt
+>^F9::Suspend(-1)
+#SuspendExempt False

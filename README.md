@@ -38,12 +38,12 @@ There are also other useful binds.
 Quick features refer to a set of quality of life improvements designed for fast
 and convenient access.
 
-| **Feature**          | **Description**                                         | **Use Case**                         | **Key**        |
-|----------------------|---------------------------------------------------------|--------------------------------------|----------------|
-| **Quick MainMenu**   | Instantly go to the game's main menu                    | - Aggro removing<br>- Area reloading | `LShift + ESC` |
-| **Quick RoundTable** | Instantly go the Round Table Hold                       |                                      | `LShift + g`   |
-| **Pause**            | Pauses the game. Accomplished by entering some sub-menu | - Pause the game enirely             | `Ctrl + ESC`   |
-| **Spinner**          | Spins the player clock-wise                             |                                      | `v`            |
+| **Feature**          | **Description**                                         | **Use Case**                         | **Key**          |
+|----------------------|---------------------------------------------------------|--------------------------------------|------------------|
+| **Quick MainMenu**   | Instantly go to the game's main menu                    | - Aggro removing<br>- Area reloading | `LShift + ESC`   |
+| **Quick RoundTable** | Instantly go the Round Table Hold                       |                                      | `LShift + g`     |
+| **Pause**            | Pauses the game. Accomplished by entering some sub-menu | - Pause the game enirely             | `CapsLock + ESC` |
+| **Spinner**          | Spins the player clock-wise                             |                                      | `v`              |
 
 | **Gesture**           | **Key** |
 |-----------------------|---------|

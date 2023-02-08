@@ -9,11 +9,5 @@
 #Requires AutoHotkey v2.0
 
 qkStatus(ThisHotkey) {
-    PressKey("escape")
-    PressKey("down")
-    Sleep(25)
-    PressKey("down")
-    Sleep(25)
-    PressKey("down")
-    PressKey("e")
+    PressKeys("escape-down-down-down-e")
 }

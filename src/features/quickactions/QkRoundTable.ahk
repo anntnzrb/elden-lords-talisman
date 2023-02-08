@@ -10,6 +10,6 @@
 
 qkRoundTable(ThisHotkey) {
     PressKey("g")
-    Sleep(300)
+    SleepInputs(9.3)
     PressKeys("f-r-e")
 }

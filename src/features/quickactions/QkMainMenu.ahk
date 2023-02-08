@@ -12,6 +12,5 @@
 
 qkMainMenu(ThisHotkey) {
     GoMenuSystem()
-    Sleep(50)
     PressKeys("z-e-left-e")
 }

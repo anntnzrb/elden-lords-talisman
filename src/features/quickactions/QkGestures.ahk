@@ -13,25 +13,17 @@ applyAndExit() {
 }
 
 qkGesture1(ThisHotkey) {
-    PressKeys("esc-up-left")
-    Sleep(50)
-    PressKeys("left-up")
-    Sleep(25)
-    PressKey("up")
+    PressKeys("esc-up-left-left-up-up")
     applyAndExit()
 }
 
 qkGesture2(ThisHotkey) {
-    PressKeys("esc-up-left-up")
-    Sleep(20)
-    PressKey("up")
+    PressKeys("esc-up-left-up-up")
     applyAndExit()
 }
 
 qkGesture3(ThisHotkey) {
-    PressKeys("esc-up-left")
-    Sleep(20)
-    PressKeys("left-up")
+    PressKeys("esc-up-left-left-up")
     applyAndExit()
 }
 
@@ -41,9 +33,7 @@ qkGesture4(ThisHotkey) {
 }
 
 qkGesture5(ThisHotkey) {
-    PressKeys("esc-up-left")
-    Sleep(50)
-    PressKey("left")
+    PressKeys("esc-up-left-left")
     applyAndExit()
 }
 

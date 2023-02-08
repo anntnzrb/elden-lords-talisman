@@ -14,9 +14,19 @@
 global MIN_KEY_PRESS := 25
 
 /**
+ * Sleeps the current thread to mimic the duration of key presses.
+ * 
+ * @param inputs The number of key inputs for which to sleep.
+ */
+
+SleepInputs(inputs) {
+    Sleep(Ceil(inputs * MIN_KEY_PRESS))
+}
+
+/**
  * Returns a boolean indicating if the specified key is currently held down.
  *
- * @param key  The key to check for being held.
+ * @param key The key to check for being held.
  */
 IsKeyHeld(key) {
     Return GetKeyState(key, "P")
@@ -27,10 +37,11 @@ IsKeyHeld(key) {
  *
  * @param key The key to press
  */
-PressKey(key, duration := MIN_KEY_PRESS) {
+PressKey(key, inputs := 1) {
     SendInput("{" key " down}")
-    Sleep(duration)
+    SleepInputs(inputs)
     SendInput("{" key " up}")
+    Sleep(1)
 }
 
 /**

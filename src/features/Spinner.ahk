@@ -12,10 +12,9 @@ spin(ThisHotkey) {
     ReleaseKeys("wasd")
 
     While IsKeyHeld(ThisHotKey) {
-        PressKey("w", 100)
-        PressKey("d", 100)
-        PressKey("s", 100)
-        PressKey("a", 100)
-        Sleep(60)
+        PressKey("w", 4)
+        PressKey("d", 4)
+        PressKey("s", 4)
+        PressKey("a", 4)
     }
 }
